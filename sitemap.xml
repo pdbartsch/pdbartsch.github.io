@@ -3,65 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pdbartsch.github.io/post/hugoisforlovers/</loc>
+    <loc>pdbartsch.github.io/pdbpages/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/categories/</loc>
+    <loc>pdbartsch.github.io/pdbpages/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pdbartsch.github.io/categories/development/</loc>
+    <loc>pdbartsch.github.io/pdbpages/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/tags/go/</loc>
+    <loc>pdbartsch.github.io/pdbpages/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/tags/golang/</loc>
+    <loc>pdbartsch.github.io/pdbpages/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/categories/golang/</loc>
+    <loc>pdbartsch.github.io/pdbpages/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/tags/hugo/</loc>
+    <loc>pdbartsch.github.io/pdbpages/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/</loc>
+    <loc>pdbartsch.github.io/pdbpages/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/post/</loc>
+    <loc>pdbartsch.github.io/pdbpages/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://pdbartsch.github.io/tags/</loc>
+    <loc>pdbartsch.github.io/pdbpages/post/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>pdbartsch.github.io/pdbpages/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

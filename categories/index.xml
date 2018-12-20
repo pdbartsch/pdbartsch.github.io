@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PDB Pages</title>
-    <link>https://pdbartsch.github.io/categories/</link>
+    <link>pdbartsch.github.io/pdbpages/categories/</link>
     <description>Recent content in Categories on PDB Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://pdbartsch.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="pdbartsch.github.io/pdbpages/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>https://pdbartsch.github.io/categories/development/</link>
+      <link>pdbartsch.github.io/pdbpages/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pdbartsch.github.io/categories/development/</guid>
+      <guid>pdbartsch.github.io/pdbpages/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://pdbartsch.github.io/categories/golang/</link>
+      <link>pdbartsch.github.io/pdbpages/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://pdbartsch.github.io/categories/golang/</guid>
+      <guid>pdbartsch.github.io/pdbpages/categories/golang/</guid>
       <description></description>
     </item>
     
