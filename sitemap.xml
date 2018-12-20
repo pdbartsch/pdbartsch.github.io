@@ -3,18 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pdbartsch.github.io/second/</loc>
+    <loc>https://pdbartsch.github.io/pauls-notes/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pdbartsch.github.io/first/</loc>
-    <lastmod>2018-12-20T09:53:46-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://pdbartsch.github.io/about/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/git/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/hugo/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/meta/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -36,11 +49,6 @@
   
   <url>
     <loc>https://pdbartsch.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pdbartsch.github.io/tags/test/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

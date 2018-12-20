@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://pdbartsch.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Git on My New Hugo Site</title>
+    <link>https://pdbartsch.github.io/tags/git/</link>
+    <description>Recent content in Git on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 12:27:11 -0800</lastBuildDate>
     
-	<atom:link href="https://pdbartsch.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pdbartsch.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
 Run local server and include draft posts: - hugo server -D - then kill local server with Ctrl-C
 Build site to github pages submodule: - remember you previously setup the submodule using these instructions. - hugo
 Deploy Site: - double click deploy.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://pdbartsch.github.io/about/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://pdbartsch.github.io/about/</guid>
-      <description>Who am I? Paul Bartsch
-What am I working on now?  Automating geospatial work with python. Mainly using ArcPy for work stuff. Django site for locating and downloading construction drawings Cleaning up and generalizing some of my work so it can be shared publicly rather than hidden away in private repos.  What is this? Paul&amp;rsquo;s github pages site.</description>
     </item>
     
   </channel>

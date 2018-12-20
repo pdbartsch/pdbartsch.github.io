@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on PDB Pages</title>
-    <link>pdbartsch.github.io/pdbpages/tags/hugo/</link>
-    <description>Recent content in Hugo on PDB Pages</description>
+    <title>Hugo on My New Hugo Site</title>
+    <link>https://pdbartsch.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 12:27:11 -0800</lastBuildDate>
     
-	<atom:link href="pdbartsch.github.io/pdbpages/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pdbartsch.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>pdbartsch.github.io/pdbpages/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>pauls notes</title>
+      <link>https://pdbartsch.github.io/pauls-notes/</link>
+      <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
-      <guid>pdbartsch.github.io/pdbpages/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://pdbartsch.github.io/pauls-notes/</guid>
+      <description>I haven&amp;rsquo;t updated this site in years, remind me: Make a new post: - hugo new post/pauls-notes.md - Update the posts metadata such as whether a draft and add tags
+Run local server and include draft posts: - hugo server -D - then kill local server with Ctrl-C
+Build site to github pages submodule: - remember you previously setup the submodule using these instructions. - hugo
+Deploy Site: - double click deploy.</description>
     </item>
     
   </channel>

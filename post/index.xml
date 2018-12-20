@@ -6,27 +6,21 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 10:13:36 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 12:27:11 -0800</lastBuildDate>
     
 	<atom:link href="https://pdbartsch.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>second</title>
-      <link>https://pdbartsch.github.io/second/</link>
-      <pubDate>Thu, 20 Dec 2018 10:13:36 -0800</pubDate>
+      <title>pauls notes</title>
+      <link>https://pdbartsch.github.io/pauls-notes/</link>
+      <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/second/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://pdbartsch.github.io/first/</link>
-      <pubDate>Thu, 20 Dec 2018 09:53:46 -0800</pubDate>
-      
-      <guid>https://pdbartsch.github.io/first/</guid>
-      <description> something here less important here </description>
+      <guid>https://pdbartsch.github.io/pauls-notes/</guid>
+      <description>I haven&amp;rsquo;t updated this site in years, remind me: Make a new post: - hugo new post/pauls-notes.md - Update the posts metadata such as whether a draft and add tags
+Run local server and include draft posts: - hugo server -D - then kill local server with Ctrl-C
+Build site to github pages submodule: - remember you previously setup the submodule using these instructions. - hugo
+Deploy Site: - double click deploy.</description>
     </item>
     
   </channel>
