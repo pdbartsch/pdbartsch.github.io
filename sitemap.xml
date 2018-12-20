@@ -3,67 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/second/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/categories/</loc>
+    <loc>http://example.org/first/</loc>
+    <lastmod>2018-12-20T09:53:46-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/pygments/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/tags/test/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/true/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/true/"
+                />
   </url>
   
   <url>
-    <loc>pdbartsch.github.io/pdbpages/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://example.org/true/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>pdbartsch.github.io/pdbpages/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>pdbartsch.github.io/pdbpages/post/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>pdbartsch.github.io/pdbpages/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/true/"
+                />
   </url>
   
 </urlset>
