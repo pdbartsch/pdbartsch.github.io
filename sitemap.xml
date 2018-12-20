@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pdbartsch.github.io/automate-export-to-pdf-of-arcgis-desktop-data-driven-pages/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pdbartsch.github.io/pauls-notes/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
@@ -13,7 +18,25 @@
   </url>
   
   <url>
+    <loc>https://pdbartsch.github.io/tags/arcgis-desktop/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/arcpy/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pdbartsch.github.io/tags/git/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/google-drive/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -44,6 +67,12 @@
   
   <url>
     <loc>https://pdbartsch.github.io/pygments/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/python/</loc>
+    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
