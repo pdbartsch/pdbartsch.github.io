@@ -17,8 +17,13 @@
       <pubDate>Thu, 20 Dec 2018 14:15:12 -0800</pubDate>
       
       <guid>https://pdbartsch.github.io/render-geojson-with-hugo-shortcode/</guid>
-      <description>Can we use Hugo&amp;rsquo;s built-in shortcodes to render a map from GeoJSON? Hugo has a built-in shortcode to render gists and GitHub will show any GeoJSON saved as a gist as a map. So, let&amp;rsquo;s give it a go:  It works!
-Some relevant links: - Gist meets GeoJSON - geojson.io</description>
+      <description>Can we use Hugo&amp;rsquo;s built-in shortcodes to render a map from GeoJSON?
+Hugo has a built-in shortcode to render gists and GitHub will show any GeoJSON saved as a gist as a map. So, let&amp;rsquo;s give it a go:
+ It works!
+Some relevant links:
+ Gist meets GeoJSON
+ geojson.io
+  </description>
     </item>
     
   </channel>

@@ -17,8 +17,13 @@
       <pubDate>Thu, 20 Dec 2018 14:15:12 -0800</pubDate>
       
       <guid>https://pdbartsch.github.io/render-geojson-with-hugo-shortcode/</guid>
-      <description>Can we use Hugo&amp;rsquo;s built-in shortcodes to render a map from GeoJSON? Hugo has a built-in shortcode to render gists and GitHub will show any GeoJSON saved as a gist as a map. So, let&amp;rsquo;s give it a go:  It works!
-Some relevant links: - Gist meets GeoJSON - geojson.io</description>
+      <description>Can we use Hugo&amp;rsquo;s built-in shortcodes to render a map from GeoJSON?
+Hugo has a built-in shortcode to render gists and GitHub will show any GeoJSON saved as a gist as a map. So, let&amp;rsquo;s give it a go:
+ It works!
+Some relevant links:
+ Gist meets GeoJSON
+ geojson.io
+  </description>
     </item>
     
     <item>
@@ -27,15 +32,14 @@ Some relevant links: - Gist meets GeoJSON - geojson.io</description>
       <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
       <guid>https://pdbartsch.github.io/pauls-notes/</guid>
-      <description>I haven&amp;rsquo;t updated this site in years, remind me: Make a new post:
+      <description>Notes to future me I haven&amp;rsquo;t updated this site in years, remind me: Make a new post:
  hugo new post/pauls-notes.md
  Update the posts metadata such as whether a draft and add tags
   Run local server and include draft posts:
  hugo server -D
  then kill local server with Ctrl-C
   Build site to github pages submodule:
- remember you previously setup the submodule using these instructions.
- hugo</description>
+ remember you previously setup the submodule using these instructions.</description>
     </item>
     
   </channel>
