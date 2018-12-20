@@ -36,19 +36,20 @@ Some relevant links:
     </item>
     
     <item>
-      <title>pauls notes</title>
+      <title>Notes to future me</title>
       <link>https://pdbartsch.github.io/pauls-notes/</link>
       <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
       <guid>https://pdbartsch.github.io/pauls-notes/</guid>
-      <description>Notes to future me I haven&amp;rsquo;t updated this site in years, remind me: Make a new post:
+      <description>I haven&amp;rsquo;t updated this site in years, remind me: Make a new post:
  hugo new post/pauls-notes.md
  Update the posts metadata such as whether a draft and add tags
   Run local server and include draft posts:
  hugo server -D
  then kill local server with Ctrl-C
   Build site to github pages submodule:
- remember you previously setup the submodule using these instructions.</description>
+ remember you previously setup the submodule using these instructions.
+ hugo</description>
     </item>
     
     <item>
