@@ -39,7 +39,8 @@ Some relevant links:
  hugo server -D
  then kill local server with Ctrl-C
   Build site to github pages submodule:
- remember you previously setup the submodule using these instructions.  Deploy Site:</description>
+ remember you previously setup the submodule using these instructions.
+ hugo</description>
     </item>
     
   </channel>
