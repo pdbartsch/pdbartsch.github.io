@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pdbartsch.github.io/circuit-python-on-esp8266/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pdbartsch.github.io/render-geojson-with-hugo-shortcode/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
   </url>
@@ -31,6 +36,12 @@
   <url>
     <loc>https://pdbartsch.github.io/tags/arcpy/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pdbartsch.github.io/tags/circuit-python/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,14 +76,20 @@
   </url>
   
   <url>
+    <loc>https://pdbartsch.github.io/tags/micro-controller/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pdbartsch.github.io/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pdbartsch.github.io/post/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
