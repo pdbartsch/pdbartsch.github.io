@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Geospatial Python Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Dec 2018 13:00:23 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2019 10:56:42 -0800</lastBuildDate>
     
 	<atom:link href="https://geopy.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,34 @@
     <item>
       <title>Arcgis Desktop</title>
       <link>https://geopy.dev/tags/arcgis-desktop/</link>
-      <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
+      <pubDate>Mon, 04 Mar 2019 10:56:42 -0800</pubDate>
       
       <guid>https://geopy.dev/tags/arcgis-desktop/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Arcgis Online</title>
+      <link>https://geopy.dev/tags/arcgis-online/</link>
+      <pubDate>Mon, 04 Mar 2019 10:56:42 -0800</pubDate>
+      
+      <guid>https://geopy.dev/tags/arcgis-online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arcgis Pro</title>
+      <link>https://geopy.dev/tags/arcgis-pro/</link>
+      <pubDate>Mon, 04 Mar 2019 10:56:42 -0800</pubDate>
+      
+      <guid>https://geopy.dev/tags/arcgis-pro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arcpy</title>
       <link>https://geopy.dev/tags/arcpy/</link>
-      <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
+      <pubDate>Mon, 04 Mar 2019 10:56:42 -0800</pubDate>
       
       <guid>https://geopy.dev/tags/arcpy/</guid>
       <description></description>
@@ -95,7 +113,7 @@
     <item>
       <title>Python</title>
       <link>https://geopy.dev/tags/python/</link>
-      <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
+      <pubDate>Mon, 04 Mar 2019 10:56:42 -0800</pubDate>
       
       <guid>https://geopy.dev/tags/python/</guid>
       <description></description>
