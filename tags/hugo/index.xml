@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on My New Hugo Site</title>
-    <link>https://pdbartsch.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on My New Hugo Site</description>
+    <title>Hugo on Geospatial Python Developer</title>
+    <link>https://geopy.dev/tags/hugo/</link>
+    <description>Recent content in Hugo on Geospatial Python Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 12:27:11 -0800</lastBuildDate>
     
-	<atom:link href="https://pdbartsch.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geopy.dev/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Notes to future me</title>
-      <link>https://pdbartsch.github.io/pauls-notes/</link>
+      <link>https://geopy.dev/pauls-notes/</link>
       <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/pauls-notes/</guid>
+      <guid>https://geopy.dev/pauls-notes/</guid>
       <description>I haven&amp;rsquo;t updated this site in years, remind me: Make a new post:
  hugo new post/pauls-notes.md
  Update the posts metadata such as whether a draft and add tags

@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://pdbartsch.github.io/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Geospatial Python Developer</title>
+    <link>https://geopy.dev/tags/</link>
+    <description>Recent content in Tags on Geospatial Python Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 13:00:23 -0800</lastBuildDate>
     
-	<atom:link href="https://pdbartsch.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geopy.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Arcgis Desktop</title>
-      <link>https://pdbartsch.github.io/tags/arcgis-desktop/</link>
+      <link>https://geopy.dev/tags/arcgis-desktop/</link>
       <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/arcgis-desktop/</guid>
+      <guid>https://geopy.dev/tags/arcgis-desktop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arcpy</title>
-      <link>https://pdbartsch.github.io/tags/arcpy/</link>
+      <link>https://geopy.dev/tags/arcpy/</link>
       <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/arcpy/</guid>
+      <guid>https://geopy.dev/tags/arcpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Circuit Python</title>
-      <link>https://pdbartsch.github.io/tags/circuit-python/</link>
+      <link>https://geopy.dev/tags/circuit-python/</link>
       <pubDate>Tue, 08 Jan 2019 07:43:09 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/circuit-python/</guid>
+      <guid>https://geopy.dev/tags/circuit-python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geojson</title>
-      <link>https://pdbartsch.github.io/tags/geojson/</link>
+      <link>https://geopy.dev/tags/geojson/</link>
       <pubDate>Thu, 20 Dec 2018 14:15:12 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/geojson/</guid>
+      <guid>https://geopy.dev/tags/geojson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://pdbartsch.github.io/tags/git/</link>
+      <link>https://geopy.dev/tags/git/</link>
       <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/git/</guid>
+      <guid>https://geopy.dev/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Drive</title>
-      <link>https://pdbartsch.github.io/tags/google-drive/</link>
+      <link>https://geopy.dev/tags/google-drive/</link>
       <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/google-drive/</guid>
+      <guid>https://geopy.dev/tags/google-drive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://pdbartsch.github.io/tags/hugo/</link>
+      <link>https://geopy.dev/tags/hugo/</link>
       <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/hugo/</guid>
+      <guid>https://geopy.dev/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>https://pdbartsch.github.io/tags/meta/</link>
+      <link>https://geopy.dev/tags/meta/</link>
       <pubDate>Thu, 20 Dec 2018 14:15:12 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/meta/</guid>
+      <guid>https://geopy.dev/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Micro Controller</title>
-      <link>https://pdbartsch.github.io/tags/micro-controller/</link>
+      <link>https://geopy.dev/tags/micro-controller/</link>
       <pubDate>Tue, 08 Jan 2019 07:43:09 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/micro-controller/</guid>
+      <guid>https://geopy.dev/tags/micro-controller/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://pdbartsch.github.io/tags/python/</link>
+      <link>https://geopy.dev/tags/python/</link>
       <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/tags/python/</guid>
+      <guid>https://geopy.dev/tags/python/</guid>
       <description></description>
     </item>
     

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://pdbartsch.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Geospatial Python Developer</title>
+    <link>https://geopy.dev/post/</link>
+    <description>Recent content in Posts on Geospatial Python Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jan 2019 07:43:09 -0800</lastBuildDate>
     
-	<atom:link href="https://pdbartsch.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://geopy.dev/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CircuitPython on the ESP8266</title>
-      <link>https://pdbartsch.github.io/circuit-python-on-esp8266/</link>
+      <link>https://geopy.dev/circuit-python-on-esp8266/</link>
       <pubDate>Tue, 08 Jan 2019 07:43:09 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/circuit-python-on-esp8266/</guid>
+      <guid>https://geopy.dev/circuit-python-on-esp8266/</guid>
       <description>I&amp;rsquo;ve been enjoying circuit-python on my Hallowing and Circuit Playground Express boards but don&amp;rsquo;t really want to tie those up with any long term projects, so I decided to dust off my old ESP8266 Feather Huzzah to see if I could get that running circuit-python as well. Because it lacks built-in USB support, the Huzzah is a little more complicated to get going but really not bad as long as you don&amp;rsquo;t mind the command line.</description>
     </item>
     
     <item>
       <title>Render GeoJSON with Built-in Hugo Shortcode</title>
-      <link>https://pdbartsch.github.io/render-geojson-with-hugo-shortcode/</link>
+      <link>https://geopy.dev/render-geojson-with-hugo-shortcode/</link>
       <pubDate>Thu, 20 Dec 2018 14:15:12 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/render-geojson-with-hugo-shortcode/</guid>
+      <guid>https://geopy.dev/render-geojson-with-hugo-shortcode/</guid>
       <description>Can we use Hugo&amp;rsquo;s built-in shortcodes to render a map from GeoJSON?
 Hugo has a built-in shortcode to render gists and GitHub will show any GeoJSON saved as a gist as a map. So, let&amp;rsquo;s give it a go:
  It works!
@@ -37,19 +37,19 @@ Some relevant links:
     
     <item>
       <title>Export ArcGIS Data Driven Pages &amp; Sync Using Python and Google Drive</title>
-      <link>https://pdbartsch.github.io/automate-export-to-pdf-of-arcgis-desktop-data-driven-pages/</link>
+      <link>https://geopy.dev/automate-export-to-pdf-of-arcgis-desktop-data-driven-pages/</link>
       <pubDate>Thu, 20 Dec 2018 13:00:23 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/automate-export-to-pdf-of-arcgis-desktop-data-driven-pages/</guid>
+      <guid>https://geopy.dev/automate-export-to-pdf-of-arcgis-desktop-data-driven-pages/</guid>
       <description>Quick Background: I work at UC Santa Barbara and one of my many jobs is to keep our underground utility atlas up to date. This atlas is accessed in multiple formats including PDF, desktop, and mobile applications. The campus atlas sheets are broken up to 500x500 foot grids which each represent a single sheet when printed or viewed as a PDF. The entire Santa Barbara campus makes up just over 300 of these grids.</description>
     </item>
     
     <item>
       <title>Notes to future me</title>
-      <link>https://pdbartsch.github.io/pauls-notes/</link>
+      <link>https://geopy.dev/pauls-notes/</link>
       <pubDate>Thu, 20 Dec 2018 12:27:11 -0800</pubDate>
       
-      <guid>https://pdbartsch.github.io/pauls-notes/</guid>
+      <guid>https://geopy.dev/pauls-notes/</guid>
       <description>I haven&amp;rsquo;t updated this site in years, remind me: Make a new post:
  hugo new post/pauls-notes.md
  Update the posts metadata such as whether a draft and add tags
