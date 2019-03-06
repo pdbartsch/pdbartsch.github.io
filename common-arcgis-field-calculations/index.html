@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+  <meta name="description" content="Geospatial Python Developer">
+  
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="https://geopy.dev/apple-touch-icon.png">
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://geopy.dev/favicon-32x32.png">
+
+  
+  <link rel="icon" type="image/png" sizes="16x16" href="https://geopy.dev/favicon-16x16.png">
+
+  
+  <link rel="manifest" href="https://geopy.dev/site.webmanifest">
+
+  
+  <link rel="mask-icon" href="https://geopy.dev/safari-pinned-tab.svg" color="#5bbad5">
+
+  <meta name="msapplication-TileColor" content="#da532c">
+
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <link rel="stylesheet" href="https://geopy.dev/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  
+  <title>Common Field Calculations in ArcGIS | Geospatial Python Developer</title>
+  
+
+  <style>
+body {
+  min-width: 300px;
+}
+
+.custom-navbar {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+.custom-navbar a {
+  display: inline-block; 
+  padding: 18px 0;
+  margin-right: 1em; 
+  font-weight: bold; 
+}
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  text-decoration: none; 
+}
+
+@media print {
+  .custom-navbar {
+    display: none;
+  }
+}
+
+article {
+  padding-bottom: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  background-color: #fff;
+}
+
+
+
+body {
+  color: #212529;
+}
+
+
+
+a {
+  color: #007bff;
+}
+
+
+
+a:hover,
+a:focus {
+  color: #0056b3;
+}
+
+
+
+.custom-navbar {
+  background-color: #212529;
+}
+
+
+
+.custom-navbar a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+.custom-navbar a:hover,
+.custom-navbar a:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+.container {
+  max-width: 800px;
+}
+
+
+
+pre {
+  display: block;
+  padding: 9.5px;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit; 
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+code {
+  padding: 2px 4px;
+  color: inherit; 
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: .9em;
+}
+
+
+
+blockquote,
+.blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 1em;
+  border-left: 5px solid #6c757d;
+}
+
+</style>
+</head>
+
+<body>
+  <nav class="custom-navbar">
+  <div class="container">
+    
+    <a href="/">Posts</a>
+    
+    <a href="/tags/">Tags</a>
+    
+    <a href="/about/">About</a>
+    
+    <a href="/index.xml"><i class="fas fa-rss fa-lg"></i></a>
+    <a href="https://github.com/pdbartsch"><i class="fab fa-github fa-lg"></i></a>
+    <a href="https://stackexchange.com/users/388677/paul"><i class="fab fa-stack-overflow fa-lg"></i></a>
+  </div>
+</nav>
+  
+  <div class="container">
+    <article>
+      <h3>Common Field Calculations in ArcGIS</h3>
+<p>
+  <small class="text-secondary">
+  
+  
+  Mar 6, 2019
+  </small>
+  
+<small><code><a href="https://geopy.dev/tags/arcgis-desktop">ArcGIS-Desktop</a></code></small>
+
+<small><code><a href="https://geopy.dev/tags/python">Python</a></code></small>
+
+</p>
+
+
+<p>The ArcGIS field calculator can save a person time and allow for fairly quick data cleanup IF you can remember how to use it.  I don&rsquo;t know about you, but for me the layout of the field calculator, the separation of the formula field and the code block area and the minor changes from standard Python formatting are enough to add a few minutes to each task.  That&rsquo;s why I started making notes for even the simplest of tasks.  I go back to them often saving myself time and frustrastion.</p>
+
+<p>Maybe someday I&rsquo;ll memorize these, but for now this method works for me.</p>
+
+<p>Below is a list of some simple field calculations that I constantly go back to for use as a starting place.  I&rsquo;ll add to these as I think of them.  Maybe you&rsquo;ll find one useful.</p>
+
+<figure>
+    <img src="/img/fieldcalc.png"/> <figcaption>
+            <h4>ArcGIS Pro Field Calculator</h4>
+        </figcaption>
+</figure>
+
+
+<h3 id="common-field-calculations-using-python">Common Field Calculations using Python:</h3>
+
+<ul>
+<li><p><strong>Chain commands together</strong>.  In this example I start with a field called <em>TextField</em> with some messy data.  Suppose I have Oak Trees listed as <em>oak, Oak, Oak tree, and oak tree</em> but I want to normalize them all to read simply <em>Oak Tree</em>.  I can chain a few simple commands together to accomplish this:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#960050;background-color:#1e0010">!</span>TextField<span style="color:#960050;background-color:#1e0010">!</span><span style="color:#f92672">.</span>lower()<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;tree&#34;</span>, <span style="color:#e6db74">&#34; &#34;</span>)<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;oak&#34;</span>, <span style="color:#e6db74">&#34;Oak Tree&#34;</span>)</code></pre></div></p></li>
+
+<li><p><strong>Using the Code Block</strong>.  The Code Block portion of the Calculate Field tool in ArcGIS allows for the use of any Python function, you can even import modules and define your own functions.  The format is not that complicated once you&rsquo;ve done a few.  I think of the Code Block area as a place to define functions which I then call in the smaller Expression box.  In the following example I want to create an abbreviated code for each tree species by taking the first two letters of the genus and concatenating them together with the first two letters of the species.  I can accomplish that quickly like this:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
+abbreviate(<span style="color:#960050;background-color:#1e0010">!</span>SciName<span style="color:#960050;background-color:#1e0010">!</span>)
+
+<span style="color:#75715e"># code block:</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">abbreviate</span>(x):
+    words <span style="color:#f92672">=</span> x<span style="color:#f92672">.</span>split()
+    letters <span style="color:#f92672">=</span> [word[:<span style="color:#ae81ff">2</span>] <span style="color:#66d9ef">for</span> word <span style="color:#f92672">in</span> words]
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join(letters)</code></pre></div></p></li>
+</ul>
+
+    </article>
+  </div>
+
+  
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-135562926-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  
+</body>
+
+</html>

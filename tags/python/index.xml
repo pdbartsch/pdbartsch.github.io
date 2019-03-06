@@ -6,10 +6,19 @@
     <description>Recent content in Python on Geospatial Python Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Mar 2019 10:56:42 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 08:21:04 -0800</lastBuildDate>
     
 	<atom:link href="https://geopy.dev/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Common Field Calculations in ArcGIS</title>
+      <link>https://geopy.dev/common-arcgis-field-calculations/</link>
+      <pubDate>Wed, 06 Mar 2019 08:21:04 -0800</pubDate>
+      
+      <guid>https://geopy.dev/common-arcgis-field-calculations/</guid>
+      <description>The ArcGIS field calculator can save a person time and allow for fairly quick data cleanup IF you can remember how to use it. I don&amp;rsquo;t know about you, but for me the layout of the field calculator, the separation of the formula field and the code block area and the minor changes from standard Python formatting are enough to add a few minutes to each task. That&amp;rsquo;s why I started making notes for even the simplest of tasks.</description>
+    </item>
     
     <item>
       <title>Using Python to Update ArcGIS Online Services</title>
