@@ -217,19 +217,19 @@ blockquote,
 <h3 id="common-field-calculations-using-python">Common Field Calculations using Python:</h3>
 
 <ul>
-<li><p><strong>Change text to title case.</strong> - So simple and used frequently.
+<li><p><strong>Change text to title case</strong> - So simple and used frequently.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 <span style="color:#960050;background-color:#1e0010">!</span>note1<span style="color:#960050;background-color:#1e0010">!</span><span style="color:#f92672">.</span>title()</code></pre></div></p></li>
 
-<li><p><strong>Replace one character for another.</strong> - Probably the most common reason I use the field calculator.
+<li><p><strong>Replace one character for another</strong> - Probably the most common reason I use the field calculator.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 <span style="color:#960050;background-color:#1e0010">!</span>noteField<span style="color:#960050;background-color:#1e0010">!</span><span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;-&#34;</span>, <span style="color:#e6db74">&#34;_&#34;</span>)</code></pre></div></p></li>
 
-<li><p><strong>Concatenate fields together.</strong> - Very common when geocoding addresses.<br />
+<li><p><strong>Concatenate fields together</strong> - Very common when geocoding addresses.<br />
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 <span style="color:#960050;background-color:#1e0010">!</span>Address<span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> <span style="color:#960050;background-color:#1e0010">!</span>Street<span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, &#34;</span> <span style="color:#f92672">+</span> <span style="color:#960050;background-color:#1e0010">!</span>City<span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;, &#34;</span> <span style="color:#f92672">+</span> <span style="color:#960050;background-color:#1e0010">!</span>State<span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> <span style="color:#960050;background-color:#1e0010">!</span>Zip<span style="color:#960050;background-color:#1e0010">!</span></code></pre></div></p></li>
 
-<li><p><strong>Simple mathematic calculations across multiple fields.</strong> - You can use the field calculator to extract summary statistics from a list of fields.
+<li><p><strong>Simple mathematic calculations across multiple fields</strong> - You can use the field calculator to extract summary statistics from a list of fields.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># find the minimum value across a list of fields:</span>
 <span style="color:#75715e"># expression:</span>
 min([<span style="color:#960050;background-color:#1e0010">!</span>field1<span style="color:#960050;background-color:#1e0010">!</span>, <span style="color:#960050;background-color:#1e0010">!</span>field2<span style="color:#960050;background-color:#1e0010">!</span>, <span style="color:#960050;background-color:#1e0010">!</span>field3<span style="color:#960050;background-color:#1e0010">!</span>])
@@ -246,11 +246,11 @@ sum([<span style="color:#960050;background-color:#1e0010">!</span>field1<span st
 <span style="color:#75715e"># expression:</span>
 sum([<span style="color:#960050;background-color:#1e0010">!</span>field1<span style="color:#960050;background-color:#1e0010">!</span>, <span style="color:#960050;background-color:#1e0010">!</span>field2<span style="color:#960050;background-color:#1e0010">!</span>, <span style="color:#960050;background-color:#1e0010">!</span>field3<span style="color:#960050;background-color:#1e0010">!</span>]) <span style="color:#f92672">/</span> len([<span style="color:#960050;background-color:#1e0010">!</span>field1<span style="color:#960050;background-color:#1e0010">!</span>, <span style="color:#960050;background-color:#1e0010">!</span>field2<span style="color:#960050;background-color:#1e0010">!</span>, <span style="color:#960050;background-color:#1e0010">!</span>field3<span style="color:#960050;background-color:#1e0010">!</span>])</code></pre></div></p></li>
 
-<li><p><strong>Chain commands together.</strong>  In this example I start with a field called <em>TextField</em> with some messy data.  Suppose I have Oak Trees listed as <em>oak, Oak, Oak tree, and oak tree</em> but I want to normalize them all to read simply <em>Oak Tree</em>.  A few simple commands can be chained together to accomplish this.
+<li><p><strong>Chaining commands together</strong>  In this example I start with a field called <em>TextField</em> with some messy data.  Suppose I have Oak Trees listed as <em>oak, Oak, Oak tree, and oak tree</em> but I want to normalize them all to read simply <em>Oak Tree</em>.  A few simple commands can be chained together to accomplish this.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 <span style="color:#960050;background-color:#1e0010">!</span>TextField<span style="color:#960050;background-color:#1e0010">!</span><span style="color:#f92672">.</span>lower()<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;tree&#34;</span>, <span style="color:#e6db74">&#34; &#34;</span>)<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;oak&#34;</span>, <span style="color:#e6db74">&#34;Oak Tree&#34;</span>)</code></pre></div></p></li>
 
-<li><p><strong>Using the Code Block.</strong>  The Code Block portion of the Calculate Field tool in ArcGIS allows for the use of any Python function, you can even import modules and define your own functions.  The format is not that complicated once you&rsquo;ve used it a few times.  Think of the Code Block area as a place to define functions which you can later call from the Expression box.  In the following example I want to create an abbreviated code for each tree species by taking the first two letters of the genus and concatenating them together with the first two letters of the species.  I can accomplish that quickly like this:
+<li><p><strong>Using the Code Block</strong>  The Code Block portion of the Calculate Field tool in ArcGIS allows for the use of any Python function, you can even import modules and define your own functions.  The format is not that complicated once you&rsquo;ve used it a few times.  Think of the Code Block area as a place to define functions which you can later call from the Expression box.  In the following example I want to create an abbreviated code for each tree species by taking the first two letters of the genus and concatenating them together with the first two letters of the species.  I can accomplish that quickly like this:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 abbreviate(<span style="color:#960050;background-color:#1e0010">!</span>SciName<span style="color:#960050;background-color:#1e0010">!</span>)
 
@@ -260,7 +260,7 @@ abbreviate(<span style="color:#960050;background-color:#1e0010">!</span>SciName<
     letters <span style="color:#f92672">=</span> [word[:<span style="color:#ae81ff">2</span>] <span style="color:#66d9ef">for</span> word <span style="color:#f92672">in</span> words]
     <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join(letters)</code></pre></div></p></li>
 
-<li><p><strong>Unit conversion using math.</strong> To convert from square footage to acres and round to two decimal places you could do something like this:
+<li><p><strong>Unit conversion using math</strong> To convert from square footage to acres and round to two decimal places you could do something like this:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 sqft_to_acres(<span style="color:#960050;background-color:#1e0010">!</span>Shape_Area<span style="color:#960050;background-color:#1e0010">!</span>)
 
@@ -270,7 +270,7 @@ sqft_to_acres(<span style="color:#960050;background-color:#1e0010">!</span>Shape
 You could accomplish the same result with a single line as below, but I personally prefer to use the Code Block to make things more repeatable and to allow for more complex functions in the future:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">round((<span style="color:#960050;background-color:#1e0010">!</span>Shape_Area<span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">43560</span>),<span style="color:#ae81ff">2</span>)</code></pre></div></p></li>
 
-<li><p><strong>Another way to convert units.</strong> - As detailed <a href="https://pro.arcgis.com/en/pro-app/tool-reference/data-management/calculate-field-examples.htm#ESRI_SECTION1_2C1A27476FD54D949723FA8DFC9306B2">here</a>, it&rsquo;s possible to use the ArcGIS Pro built in geometry unit conversions rather than doing your own calculations.  Have a look at the esri link above to see all of the built in unit of measurement conversions.  Note that the format of field names is slightly different when referring to geometry columns as compared to other fields:
+<li><p><strong>Another way to convert units</strong> - As detailed <a href="https://pro.arcgis.com/en/pro-app/tool-reference/data-management/calculate-field-examples.htm#ESRI_SECTION1_2C1A27476FD54D949723FA8DFC9306B2">here</a>, it&rsquo;s possible to use the ArcGIS Pro built in geometry unit conversions rather than doing your own calculations.  Have a look at the esri link above to see all of the built in unit of measurement conversions.  Note that the format of field names is slightly different when referring to geometry columns as compared to other fields:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Current area to hectares</span>
 <span style="color:#75715e"># expression:</span>
 <span style="color:#960050;background-color:#1e0010">!</span>shape<span style="color:#f92672">.</span>area<span style="color:#a6e22e">@hectares</span><span style="color:#960050;background-color:#1e0010">!</span>
@@ -278,6 +278,17 @@ You could accomplish the same result with a single line as below, but I personal
 <span style="color:#75715e"># Current length to kilometers</span>
 <span style="color:#75715e"># expression:</span>
 <span style="color:#960050;background-color:#1e0010">!</span>shape<span style="color:#f92672">.</span>length<span style="color:#a6e22e">@KILOMETERS</span><span style="color:#960050;background-color:#1e0010">!</span></code></pre></div></p></li>
+
+<li><p><strong>Using logic</strong> - Here&rsquo;s an overly simplified example using logic to classify a utility pipe as either a <em>Main</em> line or a <em>Lateral</em> line based on pipe diameter.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
+lat_main(<span style="color:#960050;background-color:#1e0010">!</span>size<span style="color:#960050;background-color:#1e0010">!</span>)
+
+<span style="color:#75715e"># code block:</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lat_main</span>(diameter):
+    <span style="color:#66d9ef">if</span> (diameter <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">8</span>):
+        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Main&#34;</span>
+    <span style="color:#66d9ef">else</span>: 
+        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Lateral&#34;</span></code></pre></div></p></li>
 </ul>
 
     </article>
