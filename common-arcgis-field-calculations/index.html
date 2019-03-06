@@ -217,10 +217,10 @@ blockquote,
 <h3 id="common-field-calculations-using-python">Common Field Calculations using Python:</h3>
 
 <ul>
-<li><p><strong>Chain commands together</strong>.  In this example I start with a field called <em>TextField</em> with some messy data.  Suppose I have Oak Trees listed as <em>oak, Oak, Oak tree, and oak tree</em> but I want to normalize them all to read simply <em>Oak Tree</em>.  I can chain a few simple commands together to accomplish this:
+<li><p><strong>Chain commands together.</strong>  In this example I start with a field called <em>TextField</em> with some messy data.  Suppose I have Oak Trees listed as <em>oak, Oak, Oak tree, and oak tree</em> but I want to normalize them all to read simply <em>Oak Tree</em>.  I can chain a few simple commands together to accomplish this:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#960050;background-color:#1e0010">!</span>TextField<span style="color:#960050;background-color:#1e0010">!</span><span style="color:#f92672">.</span>lower()<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;tree&#34;</span>, <span style="color:#e6db74">&#34; &#34;</span>)<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;oak&#34;</span>, <span style="color:#e6db74">&#34;Oak Tree&#34;</span>)</code></pre></div></p></li>
 
-<li><p><strong>Using the Code Block</strong>.  The Code Block portion of the Calculate Field tool in ArcGIS allows for the use of any Python function, you can even import modules and define your own functions.  The format is not that complicated once you&rsquo;ve done a few.  I think of the Code Block area as a place to define functions which I then call in the smaller Expression box.  In the following example I want to create an abbreviated code for each tree species by taking the first two letters of the genus and concatenating them together with the first two letters of the species.  I can accomplish that quickly like this:
+<li><p><strong>Using the Code Block.</strong>  The Code Block portion of the Calculate Field tool in ArcGIS allows for the use of any Python function, you can even import modules and define your own functions.  The format is not that complicated once you&rsquo;ve done a few.  I think of the Code Block area as a place to define functions which I then call in the smaller Expression box.  In the following example I want to create an abbreviated code for each tree species by taking the first two letters of the genus and concatenating them together with the first two letters of the species.  I can accomplish that quickly like this:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
 abbreviate(<span style="color:#960050;background-color:#1e0010">!</span>SciName<span style="color:#960050;background-color:#1e0010">!</span>)
 
@@ -229,6 +229,16 @@ abbreviate(<span style="color:#960050;background-color:#1e0010">!</span>SciName<
     words <span style="color:#f92672">=</span> x<span style="color:#f92672">.</span>split()
     letters <span style="color:#f92672">=</span> [word[:<span style="color:#ae81ff">2</span>] <span style="color:#66d9ef">for</span> word <span style="color:#f92672">in</span> words]
     <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join(letters)</code></pre></div></p></li>
+
+<li><p><strong>Math.</strong> To convert from square footage to acres and round to two decimal places you could do something like this:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># expression:</span>
+sqft_to_acres(<span style="color:#960050;background-color:#1e0010">!</span>Shape_Area<span style="color:#960050;background-color:#1e0010">!</span>)
+
+<span style="color:#75715e"># code block:</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sqft_to_acres</span>(area):
+    <span style="color:#66d9ef">return</span> round((area <span style="color:#f92672">/</span> <span style="color:#ae81ff">43560</span>),<span style="color:#ae81ff">2</span>)</code></pre></div>
+You could accomplish the same result with a single line as below, but I personally prefer to use the Code Block to make things more legible and repeatable:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">round((<span style="color:#960050;background-color:#1e0010">!</span>Shape_Area<span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">43560</span>),<span style="color:#ae81ff">2</span>)</code></pre></div></p></li>
 </ul>
 
     </article>
