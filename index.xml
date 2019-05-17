@@ -17,7 +17,7 @@
       <pubDate>Fri, 17 May 2019 10:29:26 -0700</pubDate>
       
       <guid>https://geopy.dev/how-much-of-one-area-within-another/</guid>
-      <description>Turf area per maintenance area   A: Python in ArcGIS Pro: arcpy.analysis.SummarizeWithin(&amp;#34;maintenance_area_pgon&amp;#34;, &amp;#34;turf_area_gpon&amp;#34;, r&amp;#34;path\to\save\output\file&amp;#34;, &amp;#34;KEEP_ALL&amp;#34;, None, &amp;#34;ADD_SHAPE_SUM&amp;#34;, &amp;#34;SQUAREFEET&amp;#34;, None, &amp;#34;NO_MIN_MAJ&amp;#34;, &amp;#34;NO_PERCENT&amp;#34;, r&amp;#34;path\to\save\group\table&amp;#34;) The parameters for Summarize Within are SummarizeWithin_analysis (in_polygons, in_sum_features, out_feature_class, {keep_all_polygons}, {sum_fields}, {sum_shape}, {shape_unit}, {group_field}, {add_min_maj}, {add_group_percent}, {out_group_table})
+      <description>Showing turf over maintenance areas.   A: Python in ArcGIS Pro: arcpy.analysis.SummarizeWithin(&amp;#34;maintenance_area_pgon&amp;#34;, &amp;#34;turf_area_gpon&amp;#34;, r&amp;#34;path\to\save\output\file&amp;#34;, &amp;#34;KEEP_ALL&amp;#34;, None, &amp;#34;ADD_SHAPE_SUM&amp;#34;, &amp;#34;SQUAREFEET&amp;#34;, None, &amp;#34;NO_MIN_MAJ&amp;#34;, &amp;#34;NO_PERCENT&amp;#34;, r&amp;#34;path\to\save\group\table&amp;#34;) The parameters for Summarize Within are SummarizeWithin_analysis (in_polygons, in_sum_features, out_feature_class, {keep_all_polygons}, {sum_fields}, {sum_shape}, {shape_unit}, {group_field}, {add_min_maj}, {add_group_percent}, {out_group_table})
 For the full docs have a look at esri&amp;rsquo;s documentation.</description>
     </item>
     
