@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Geospatial Python Developer</title>
+    <title>hugo on Geospatial Python Developer</title>
     <link>https://geopy.dev/tags/hugo/</link>
-    <description>Recent content in Hugo on Geospatial Python Developer</description>
+    <description>Recent content in hugo on Geospatial Python Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Dec 2018 12:27:11 -0800</lastBuildDate>

@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   
-  <title>circuit-python | Geospatial Python Developer</title>
+  <title>Q: How to quickly calculate turf per maintenance area? | Geospatial Python Developer</title>
   
 
   <style>
@@ -186,22 +186,36 @@ blockquote,
   
   <div class="container">
     <article>
-      <h3>circuit-python</h3>
+      <h3>Q: How to quickly calculate turf per maintenance area?</h3>
+<p>
+  <small class="text-secondary">
+  
+  
+  May 17, 2019
+  </small>
+  
+<small><code><a href="https://geopy.dev/tags/arcgis-desktop">ArcGIS-Desktop</a></code></small>
+
+<small><code><a href="https://geopy.dev/tags/python">Python</a></code></small>
+
+</p>
 
 
-  <p>
-    <a href="https://geopy.dev/circuit-python-on-esp8266/">CircuitPython on the ESP8266</a>
-    
-    
-    <br>
-    <small class="text-secondary">Jan 8, 2019</small>
-    
-<small><code><a href="https://geopy.dev/tags/micro-controller">micro-controller</a></code></small>
+<figure>
+    <img src="/img/turfarea.png"/> <figcaption>
+            <h4>Turf area per maintenance area</h4>
+        </figcaption>
+</figure>
 
-<small><code><a href="https://geopy.dev/tags/circuit-python">circuit-python</a></code></small>
 
-    
-  </p>
+<h3 id="a-python-in-arcgis-pro">A: Python in ArcGIS Pro:</h3>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">arcpy<span style="color:#f92672">.</span>analysis<span style="color:#f92672">.</span>SummarizeWithin(<span style="color:#e6db74">&#34;maintenance_area_pgon&#34;</span>, <span style="color:#e6db74">&#34;turf_area_gpon&#34;</span>, <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;path\to\save\output\file&#34;</span>, <span style="color:#e6db74">&#34;KEEP_ALL&#34;</span>, None, <span style="color:#e6db74">&#34;ADD_SHAPE_SUM&#34;</span>, <span style="color:#e6db74">&#34;SQUAREFEET&#34;</span>, None, <span style="color:#e6db74">&#34;NO_MIN_MAJ&#34;</span>, <span style="color:#e6db74">&#34;NO_PERCENT&#34;</span>, <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;path\to\save\group\table&#34;</span>)</code></pre></div>
+
+<p>The parameters for Summarize Within are
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">SummarizeWithin_analysis (in_polygons, in_sum_features, out_feature_class, {keep_all_polygons}, {sum_fields}, {sum_shape}, {shape_unit}, {group_field}, {add_min_maj}, {add_group_percent}, {out_group_table})</code></pre></div></p>
+
+<p>For the full docs have a look at <a href="https://pro.arcgis.com/en/pro-app/tool-reference/analysis/summarize-within.htm">esri&rsquo;s documentation</a>.</p>
 
     </article>
   </div>
