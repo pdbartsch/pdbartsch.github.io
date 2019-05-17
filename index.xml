@@ -95,8 +95,8 @@ Some relevant links:
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://geopy.dev/about/</guid>
-      <description>Who am I? Paul Bartsch. A Geographic Information Systems professional who grew tired of looking for icons in GIS GUIs. Currently automating as many repetitive tasks as possible.
-What am I working on now?  Automating geospatial work with python. Mainly using ArcPy and GeoPandas Django site for locating and downloading construction drawings Wildfire threat modeling  What is this? A site to post my notes on using python to manipulate, analyze, manage and organize geospatial data.</description>
+      <description>Who am I? Paul Bartsch. A Geographic Information Systems professional who grew tired of looking for those ever moving buttons. Currently automating as many repetitive tasks as possible.
+What am I working on now?  Automating geospatial work with Python, including ArcPy, PyQGIS and GeoPandas. Database driven records management apps. Wildfire threat modeling. Site plans, analysis and summary statistics. Helping solve the problem of where to live based on data.</description>
     </item>
     
   </channel>
